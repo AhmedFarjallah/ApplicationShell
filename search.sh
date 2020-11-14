@@ -2,6 +2,6 @@
 
 search(){
 	
-	find -name "*.$1"  
+	find /home -name "*.$1"  
 }
 search $1
